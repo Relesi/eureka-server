@@ -41,9 +41,9 @@ NOTE: This does not include the Eureka modules.
 
 #### Building
 
-:jdkversion: 1.8
+	:jdkversion: 1.8
 
-=== Basic Compile and Test
+#### Basic Compile and Test
 
 To build the source you will need to install JDK {jdkversion}.
 
@@ -55,7 +55,7 @@ project you are interested in and typing
 $ ./mvnw install
 
 
-
+----
 ### How to run the service
 
 	Make sure you have Maven installed and added to your operating system's PATH, as well as Git.
