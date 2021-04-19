@@ -5,7 +5,7 @@ Store for integration system with Java and Spring Boot.
 
 ### RESTful API details
 
-== Features
+#### Features
 
 * Service Discovery: Eureka instances can be registered and clients can discover the instances using Spring-managed beans
 * Service Discovery: an embedded Eureka server can be created with declarative Java configuration
@@ -15,7 +15,7 @@ Store for integration system with Java and Spring Boot.
 * External Configuration: a bridge from the Spring Environment to Archaius (enables native configuration of Netflix components using Spring Boot conventions)
 * Router and Filter: automatic registration of Zuul filters, and a simple convention over configuration approach to reverse proxy creation
 
-== Modules In Maintenance Mode
+### Modules In Maintenance Mode
 
 Placing a module in maintenance mode means that the Spring Cloud team will no longer be adding new features to the module.
 We will fix blocker bugs and security issues, and we will also consider and review small pull requests from the community.
@@ -39,7 +39,7 @@ The following Spring Cloud Netflix modules and corresponding starters will be pl
 NOTE: This does not include the Eureka modules.
 
 
-== Building
+#### Building
 
 :jdkversion: 1.8
 
