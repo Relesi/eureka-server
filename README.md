@@ -51,8 +51,8 @@ Spring Cloud uses Maven for most build-related activities, and you
 should be able to get off the ground quite quickly by cloning the
 project you are interested in and typing
 
-----
-$ ./mvnw install
+
+	$ ./mvnw install
 
 
 ----
